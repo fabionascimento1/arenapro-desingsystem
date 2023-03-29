@@ -1,0 +1,4 @@
+{
+  "extends": "@arena-pro/ts-config/base.json",
+  "include": ["src"]
+}

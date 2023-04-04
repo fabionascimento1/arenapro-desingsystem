@@ -1,5 +1,11 @@
-import { colors } from '@arena-pro/tokens'
+import { styled } from "./styles";
+
+const Button = styled("button", {
+  fontFamily: "$default",
+  backgroundColor: "$gray500",
+  width: "$64",
+});
 
 export function App() {
-  return <h1 style={{ color: colors.gray400 }}>TEste</h1>
+  return <Button>Olá</Button>;
 }
